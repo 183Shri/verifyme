@@ -31,26 +31,6 @@
 
 ---
 
-##  Sample Screenshots
-
-### 1. Upload Aadhar Card
-
-\`\`\`html
-<input type="file" id="aadharUpload" accept="image/*,application/pdf">
-\`\`\`
-
-### 2. Capture Selfie
-
-\`\`\`javascript
-navigator.mediaDevices.getUserMedia({ video: true })
-\`\`\`
-
-### 3. Verification Summary
-
-> “Verified” or “Not Verified” shown based on confidence threshold and age.  
-> Match confidence (e.g., \`92%\`) is displayed.
-
----
 
 ##  How to Run the Project Locally
 
@@ -142,8 +122,8 @@ pyinstaller --onefile app.py
 
 ##  Demo Video & Presentation
 
--  [Demo Video (Google Drive / YouTube)](https://your-demo-link-here)
--  [Project Presentation (PPT)](https://your-ppt-link-here)
+-  [Demo Video (Google Drive / YouTube)](https://drive.google.com/file/d/1AHzhvqY_AcwjYQikRCJI0r7UFFfdg3vo/view?usp=sharing)
+-  [Project Presentation (PPT)](https://drive.google.com/file/d/14ynuM6JTk_YZylES_W-C5ZQ37DhAe0jW/view?usp=sharing)
 
 ---
 
@@ -152,11 +132,10 @@ pyinstaller --onefile app.py
 - ✅ GitHub repo with working code
 - ✅ README with setup & run instructions
 - ✅ Demo video and presentation PPT
-- ✅ Executable binary (\`verifyme.exe\`)
 - ✅ Bonus features implemented
 
 ---
 
-## ���‍♀️ Built with ❤️ by
+## Built with ❤️ by
 
 **PlayersWhoCode**
