@@ -1,10 +1,10 @@
-# ‚úÖ VerifyMe ‚Äì Age & Identity Verification System Ì¥ê
+# ‚úÖ VerifyMe ‚Äì Age & Identity Verification System 
 
 **VerifyMe** is a web-based age and identity verification tool built for demonstration purposes using **simulated Aadhar cards** and **live webcam selfies**. It performs OCR to extract DOB and uses face recognition to verify identity ‚Äî all locally in the browser and backend, without relying on any government APIs.
 
 ---
 
-## Ì¥ß Tech Stack Summary
+##  Tech Stack Summary
 
 | Layer     | Technology/Libraries Used                                      |
 |-----------|---------------------------------------------------------------|
@@ -16,7 +16,7 @@
 
 ---
 
-## Ì≤° Features
+##  Features
 
 - ‚úÖ Upload Aadhar card (image or PDF)
 - ‚úÖ Extract DOB using OCR
@@ -31,7 +31,7 @@
 
 ---
 
-## Ì≥∏ Sample Screenshots
+##  Sample Screenshots
 
 ### 1. Upload Aadhar Card
 
@@ -52,16 +52,16 @@ navigator.mediaDevices.getUserMedia({ video: true })
 
 ---
 
-## Ì∫Ä How to Run the Project Locally
+##  How to Run the Project Locally
 
-### Ì≥¶ 1. Clone the Repository
+###  1. Clone the Repository
 
 \`\`\`bash
 git clone https://github.com/tanya-2004/verifyme
 cd verifyme
 \`\`\`
 
-### Ì¥ß 2. Install Dependencies
+###  2. Install Dependencies
 
 Make sure you have **Python 3.11** and **Tesseract OCR** installed.
 
@@ -77,7 +77,7 @@ Install Tesseract:
   \`\`\`
 - **Windows**: [Download here](https://github.com/tesseract-ocr/tesseract/wiki)
 
-### Ìºê 3. Set Environment Variables
+###  3. Set Environment Variables
 
 Create a \`.env\` file:
 
@@ -96,7 +96,7 @@ Visit: [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## Ì≥Å Project Structure
+##  Project Structure
 
 \`\`\`bash
 verifyme/
@@ -121,7 +121,7 @@ pyinstaller --onefile app.py
 
 ---
 
-## ÌæÅ Bonus Features Implemented
+##  Bonus Features Implemented
 
 - ‚úÖ Match confidence score shown as percentage
 - ‚úÖ Multilingual OCR (\`--lang hin\`, etc.)
@@ -132,22 +132,22 @@ pyinstaller --onefile app.py
 
 ---
 
-## Ì¥ê Security Notes
+##  Security Notes
 
-- Ì∫´ No image data is stored
+-  No image data is stored
 - ‚úÖ Use **HTTPS** in production (e.g., Flask-Talisman)
 - ‚ö†Ô∏è For demo purposes only ‚Äî do **not** use real Aadhar data
 
 ---
 
-## Ì≥Ω Demo Video & Presentation
+##  Demo Video & Presentation
 
-- Ì¥ó [Demo Video (Google Drive / YouTube)](https://your-demo-link-here)
-- Ì≥ä [Project Presentation (PPT)](https://your-ppt-link-here)
+-  [Demo Video (Google Drive / YouTube)](https://your-demo-link-here)
+-  [Project Presentation (PPT)](https://your-ppt-link-here)
 
 ---
 
-## ÌøÅ Submission Checklist
+##  Submission Checklist
 
 - ‚úÖ GitHub repo with working code
 - ‚úÖ README with setup & run instructions
@@ -157,6 +157,6 @@ pyinstaller --onefile app.py
 
 ---
 
-## Ìπã‚Äç‚ôÄÔ∏è Built with ‚ù§Ô∏è by
+## ÔøΩÔøΩÔøΩ‚Äç‚ôÄÔ∏è Built with ‚ù§Ô∏è by
 
 **PlayersWhoCode**
